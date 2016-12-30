@@ -1,0 +1,17 @@
+Emergency Room
+Non Health Care Facility
+Physician Referral
+Clinic
+Transfer from a Hospital
+Information Not Available
+Transfer from MS Acute Unit to Hospice
+Acute Unit of Another Facility
+Transfer from SNF
+Ambulatory Surgery
+Transfer from Another Health Care Facility
+Transfer from Ambulatory Surgery Center
+Court/Law Enforcement
+Born in this Hospital
+Transfer from Hospice and is Under a Hospice
+Mount Sinai Psych
+SNF Transfer
