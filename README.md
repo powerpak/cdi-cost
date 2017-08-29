@@ -10,22 +10,24 @@ Because the full 7 year, 171,938 row dataset was created in the course of routin
 
 You will need to install [R](https://www.r-project.org/) (we used version 3.2.2), [Jupyter](http://jupyter.org/), and the [R kernel for Jupyter](https://github.com/IRkernel/IRkernel).
 
-The notebooks use many R packages, but these are all available on [CRAN](https://cran.r-project.org/). The packages used in these notebooks are:
+The notebooks use many R packages, but these are all available on [CRAN](https://cran.r-project.org/). The packages and versions we used are as follows:
 
-- `glmnet`
-- `doMC`
-- `ROCR`
-- `gplots`
-- `MatchIt`
-- `Hmisc`
-- `ggplot2`
-- `cowplot`
-- `simpleboot`
-- `UpSetR`
-- `survival`
-- `lattice`
-- `parallel`
-- `etm`
+| library      | version |
+| ------------ | ------- |
+| `glmnet`     | 2.0-10  |
+| `doMC`       | 1.3.4   |
+| `ROCR`       | 1.0-7   |
+| `gplots`     | 3.0.1   |
+| `MatchIt`    | 2.4-21  |
+| `Hmisc`      | 4.0-1   |
+| `ggplot2`    | 2.2.1   |
+| `cowplot`    | 0.6.3   |
+| `simpleboot` | 1.1-3   |
+| `UpSetR`     | 1.3.1   |
+| `survival`   | 2.40-1  |
+| `lattice`    | 0.20-34 |
+| `parallel`   | 3.2.2   |
+| `etm`        | 0.6-2   |
 
 If while executing a notebook, you receive the error "there is no package called...", run
 
