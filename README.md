@@ -1,10 +1,10 @@
 # cdi-cost
 
-This code implements an analysis of changes in length of stay associated with *Clostridium difficile* infection using machine learning on electronic medical record (EMR) data, reported in Pak et al. 2017 (in press at [*Infect Control Hosp Epidemiol*][iche]). The code shows the full process of fitting propensity models using [elastic net regularized](https://en.wikipedia.org/wiki/Elastic_net_regularization) logistic regression, [propensity score matching](https://en.wikipedia.org/wiki/Propensity_score_matching), and subsequent statistical comparisons. The process starts from the data exported from our EMR, which is in the tab-separated values (TSV) format illustrated by `data/exported_visit_data.EXAMPLE.tsv`.
+This code implements an analysis of changes in length of stay associated with *Clostridium difficile* infection using machine learning on electronic medical record (EMR) data, reported in [Pak et al. 2017][iche] (open access at _Infect Control Hosp Epidemiol_). The code shows the full process of fitting propensity models using [elastic net regularized](https://en.wikipedia.org/wiki/Elastic_net_regularization) logistic regression, [propensity score matching](https://en.wikipedia.org/wiki/Propensity_score_matching), and subsequent statistical comparisons. The process starts from the data exported from our EMR, which is in the tab-separated values (TSV) format illustrated by `data/exported_visit_data.EXAMPLE.tsv`.
 
 Because the full 7 year, 171,938 row dataset was created in the course of routine clinical operations at [The Mount Sinai Hospital](http://www.mountsinai.org/), it is proprietary to Mount Sinai and may contain private patient information that remains identifiable despite our use of [Safe Harbor deidentification procedures](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/#safeharborguidance); therefore we cannot share the complete input dataset. However, we provide these notebooks for full transparency on the statistical procedures and the creation of all figures in the article, and so that these methods can be re-used for any EMR data that is formatted in shape of our input files.
 
-[iche]: https://www.cambridge.org/core/journals/infection-control-and-hospital-epidemiology
+[iche]: https://doi.org/10.1017/ice.2017.214
 
 ## Prequisites
 
